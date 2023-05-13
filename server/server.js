@@ -7,10 +7,11 @@ import v1 from "./v1/index.js";
 dotenv.config();
 
 const app = express();
-const corsOptions = {
-  origin: "https://hospitalmanagementwebsite.onrender.com", // frontend URI (ReactJS)
-};
-app.use(cors(corsOptions));
+// const corsOptions = {
+//   origin: "https://hospitalmanagementwebsite.onrender.com", // frontend URI (ReactJS)
+// };
+// app.use(cors(corsOptions));
+app.use(cors);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use("/v1", v1);
