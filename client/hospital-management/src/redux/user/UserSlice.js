@@ -32,7 +32,7 @@ export const userlogin = createAsyncThunk(
         },
       };
       const { data } = await axios.post(
-        "http://localhost:8080/v1/api/admin/common-login",
+        "https://hospitalmanagementserver.onrender.com/v1/api/admin/common-login",
         values,
         config
       );

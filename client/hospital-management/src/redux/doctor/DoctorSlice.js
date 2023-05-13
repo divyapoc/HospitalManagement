@@ -34,7 +34,7 @@ export const doctorlogin = createAsyncThunk(
         },
       };
       const { data } = await axios.post(
-        `http://localhost:8080/v1/api/specialist/doctor-login?department_id=${decode.department_id}`,
+        `https://hospitalmanagementserver.onrender.com/v1/api/specialist/doctor-login?department_id=${decode.department_id}`,
         values,
         config
       );
