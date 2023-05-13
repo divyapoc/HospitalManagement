@@ -8,7 +8,7 @@ dotenv.config();
 
 const app = express();
 const corsOptions = {
-  origin: "http://localhost:3000", // frontend URI (ReactJS)
+  origin: "https://hospitalmanagementwebsite.onrender.com", // frontend URI (ReactJS)
 };
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
