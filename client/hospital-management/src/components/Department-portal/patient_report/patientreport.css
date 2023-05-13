@@ -1,0 +1,38 @@
+.report-title .ant-card-head-title {
+  color: gray;
+  font-size: 18px;
+  text-align: center;
+}
+
+.div-detail {
+  height: 100px;
+  align-items: center;
+  color: rgb(165, 163, 163);
+  font-size: 16.5px;
+  background-color: #001529;
+}
+
+.report-date {
+  border-bottom: solid 0.5px gray;
+}
+
+.review-msg {
+  text-align: justify;
+  color: gray;
+}
+
+.review-txt {
+  font-size: 16.5px;
+  font-weight: 500;
+  color: #001529;
+}
+
+.empty {
+  font-size: 35px;
+  color: #001529;
+}
+.no-data {
+  font-size: 18px;
+  color: #001529;
+  font-weight: 500;
+}

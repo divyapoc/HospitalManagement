@@ -1,0 +1,59 @@
+.login-button {
+  background-color: rgb(245, 161, 6) !important;
+  color: rgb(82, 82, 82);
+}
+
+.login-button:hover {
+  border: solid rgb(82, 82, 82) 0.5px;
+  color: rgb(255, 255, 255);
+}
+
+.card-header {
+  height: 60px;
+}
+
+.sign-card .ant-card-head {
+  background-color: rgb(245, 161, 6) !important;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
+
+.log-sign-link:link {
+  color: rgb(245, 161, 6);
+}
+
+.log-sign-link:visited {
+  color: rgb(245, 161, 6);
+}
+.log-sign-link:active {
+  font-size: 16px;
+  color: rgb(245, 161, 6);
+}
+.log-sign-link:hover {
+  font-size: 16px;
+  color: rgb(247, 103, 103);
+}
+
+.otp-text {
+  color: gray;
+  font-weight: 400;
+  font-size: 15px;
+}
+.otp-input {
+  width: 2em !important;
+  border: solid rgb(224, 153, 21) 1px;
+}
+
+.otp-container {
+  justify-content: center;
+}
+
+.text-modal {
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+}
+/* .otp-input:focus {
+  border: solid rgb(224, 153, 21) 1px;
+} */

@@ -1,0 +1,16 @@
+{
+  "name": "appointment-booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install-server": "cd server && npm install",
+    "start-server": "cd server && node server.js",
+    "install-client": "cd client && cd hospital-management && npm install",
+    "build-client": "cd client  && cd hospital-management && npm run build",
+    "start-client": "cd client  && cd hospital-management && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
