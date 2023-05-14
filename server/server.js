@@ -8,14 +8,14 @@ dotenv.config();
 
 const app = express();
 const corsOptions = {
-  origin: "https://hospitalmanagementserver.onrender.com", // frontend URI (ReactJS)
+  origin: "https://hospitalwebsite-hot2.onrender.com", // frontend URI (ReactJS)
 };
 app.use(cors(corsOptions));
 app.use(function (req, res, next) {
   // res.header("Access-Control-Allow-Origin", "*");
   const allowedOrigins = [
     "http://localhost:3000",
-    "https://hospitalmanagementserver.onrender.com",
+    "https://hospitalwebsite-hot2.onrender.com",
   ];
   const origin = req.headers.origin;
   if (allowedOrigins.includes(origin)) {
